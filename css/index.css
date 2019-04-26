@@ -202,3 +202,34 @@ header nav {
 .box10 {
     background-color: dodgerblue;
 }
+
+.jumboAboutImg {
+    /* Image stuck left */
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.aboutParagraph {
+    display: flex;
+    border-bottom: 2px dashed black;
+    flex-direction: column;
+}
+
+.paragraph {
+    width: 375px;
+    border-bottom: 2px dashed black;
+}
+
+.paragraphBoxes {
+    /* border: 4px solid black; */
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+button {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
