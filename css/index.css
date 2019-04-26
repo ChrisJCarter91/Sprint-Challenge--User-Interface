@@ -204,21 +204,25 @@ header nav {
 }
 
 .jumboAboutImg {
-    /* Image stuck left */
     display: flex;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    justify-content: center;
+    flex-grow: 1;
+    width: 1000px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .aboutParagraph {
     display: flex;
     border-bottom: 2px dashed black;
     flex-direction: column;
+    padding-bottom: 10px;
 }
 
 .paragraph {
     width: 375px;
     border-bottom: 2px dashed black;
+    margin: 12px;
 }
 
 .paragraphBoxes {
@@ -232,4 +236,14 @@ header nav {
 button {
     margin-top: 10px;
     margin-bottom: 20px;
+}
+
+.imgBoxes {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.workTogether {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
