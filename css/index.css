@@ -152,15 +152,14 @@ header {
 
 header nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-grow: 1;
     align-items: baseline;
 }
 
 .jumboImg {
     display: flex;
-    margin-top: 40px;
-    margin-bottom: 20px;
+    justify-content: flex-start;
 }
 
 .box1 {
@@ -204,10 +203,6 @@ header nav {
 }
 
 .jumboAboutImg {
-    display: flex;
-    justify-content: center;
-    flex-grow: 1;
-    width: 1000px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
